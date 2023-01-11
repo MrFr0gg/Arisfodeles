@@ -1,0 +1,1 @@
+Este arquivo HTML foi criado apenas com o intúito de treino e também servir como um tipo de homenagem a uma lista de "frases motivacionais" criada por um amigo meu que tem o alter ego de "Arisfódeles" kk. Esta lista é apenas uma brincadeira (mesmo sendo um pouco agressiva), então pfv, não a leve muito a sério ;)
