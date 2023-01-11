@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--base estrutural: comando html: 5 (libera as meta tags abaixo com a base estrutural de responsividade do site)-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Aristóteles, Arisfódeles, filosofia, zoeira, sabedoria">
+    <link rel="stylesheet" href="responsivo/responsivo.css">
+    <!--a tag "style" define o uso de CSS (Cascadian style sheets), que, quando aplicado em "<head>" define uma estética geral dessa página (CSS Interno)-->
+    <style>
+        * {
+            background-size: border-box;
+        }
+
+        body {
+            counter-reset: mynum;
+            background-image: url(imagens/abstrato-envelhecido-antigo-antigo-plano-de-fundo-papel-bege-em-branco_213524-89.jpg);
+            background-size: contain;
+            margin: 0;
+        }
+
+        .cabeçalho {
+            margin: 3%;
+            display: flex;
+            flex-flow: row;
+            background-image: radial-gradient(#d80808de, #b60c0cde, #720707de);
+            padding: 30px;
+            border-radius: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .cabeçalho h1 {
+            color: white;
+        }
+
+        small {
+            color: rgb(82, 11, 11);
+        }
+
+        .borda {
+            flex: 90%;
+            border: white solid;
+            border-left: none;
+        }
+
+        .imagem {
+            flex: 10%;
+            border: white solid;
+            border-right: none;
+            padding: 5px;
+        }
+        .tópicos {
+            margin: 5%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .rodapé {
+            max-width: 100%;
+            height: 120px;
+            border-top: white solid 3px;
+            color: white;
+            background-image: linear-gradient(180deg,#d80808de, #720707de, rgb(54, 1, 1));
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .rodapé h2{
+            padding-top: 30px;
+            margin:0px
+        }
+        .rodapé small{
+            color: white;
+        }
+        /*a estilização abaixo foi feita para se destacar os números que aparecem em frente aos tópicos da lista (utilizam-se "contadores" diretamente nos parágrafos)*/
+        p.destacado::before {
+            content: counter(mynum) ": ";
+            counter-increment: mynum;
+            font-weight: bold;
+        }
+    </style>
+    <title> Os Caminhos de Arisfódeles </title>
+</head>
+<body>
+    <!--tag "div" determina uma divisória, que separa diferentes trechos do site. É possível também usar HTML semântico (não necessita de atributos)-->
+    <div class="cabeçalho">
+        <div class="imagem">
+            <img src="imagens/20221228_163850_0000.png" width="100px">
+        </div>
+        <div class="borda">
+            <h1> <b> Os Caminhos de Arisfódeles </b> </h1>
+            <small> Site feito meramente pra entretenimento do público alheio ( se gostar...brigadu =) )</small>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="tópicos">
+        <p class="destacado"> "Perdoe seu amigo, mas lembre do nome do bastardo" </p>
+        <p class="destacado"> "O álcool não resolve nada...mas dane-se, o leite também não" </p>
+        <p class="destacado"> "Ajude outras pessoas, elas se lembrarão de você quando precisarem novamente" </p>
+        <p class="destacado"> "A violência não é a resposta, ela é uma pergunta, e a resposta é sempre 'sim'" </p>
+        <p class="destacado"> "Vencer não é tudo, também é preciso humilhar seu adversário" </p>
+        <p class="destacado"> "Um homem só quer ver o que tem no coração de uma mulher...mas os seios ficam na frente"
+        </p>
+        <p class="destacado"> "Saibam que a maioria das pessoas irá te tratar como um deus: irão te ignorar té
+            precisarem de algo" </p>
+        <p class="destacado"> "Muitas pessoas estão vivas só porque é crime atirar nelas" </p>
+        <p class="destacado"> "Quanto mais conheço o ser humano, mais gosto do meu cachorro" </p>
+        <p class="destacado"> "Não temos medo de ficar sozinhos no escuro, temos medo de não estarmos sozinhos" </p>
+        <p class="destacado"> "Namore uma cega e a traia com uma muda. Assim, a sua namorada não vai saber, e sua amante
+            não vai contar" </p>
+        <p class="destacado"> "Em briga de anão toda faca vira espada" </p>
+        <p class="destacado"> "Um dia Jesus disse:'Amai-vos uns aos outros como eu vos amei'. Aparentemente só o
+            cachorro entendeu" </p>
+        <p class="destacado"> "Nem todo filósofo é maconheiro, mas todo maconheiro é filósofo" </p>
+        <p class="destacado"> "Corajoso é o homem que, mesmo com diarreia, arrisca um peido" </p>
+        <p class="destacado"> "A vida é uma só, traz lasanha!" </p>
+        <p class="destacado"> "Se 666 é o número do diabo, então 25,8 é a raíz de todo mal" </p>
+        <p class="destacado"> "Estar solteiro no dia dos namorados é o mesmo que estar vivo no dia de finados: você não
+            participa das comemorações, mas talves esteja melhor que os homenageados" </p>
+        <p class="destacado"> "Eu nunca serei vegetariano! Meus antepassados não inventaram arco e flecha e facas pra
+            caçar repolho e alface" </p>
+        <p class="destacado"> "Essa falácia de que 'lugar de mulher é na cozinha' é ridícula. E o resto da casa? Fica
+            suja?" </p>
+        <p class="destacado"> "O ladrão rouba pra comprar droga, mas porque ele não rouba logo a droga? Simples, os
+            traficantes andam armados" </p>
+        <p class="destacado"> "A cada dia que se passa, o apocalipse deixa de ser um medo e se torna uma esperança" </p>
+        <p class="destacado"> "Não existe trabalho ruim, o ruim é ter que trabalhar" </p>
+        <p class="destacado"> "Se você pegar sua mina te traindo, aproveita o chifre e mata o cara" </p>
+        <p class="destacado"> "Acho engraçado essas mulheres grávidas no ônibus querendo roubar meu lugar. Elas que
+            transam e eu que me fodo" </p>
+        <p class="destacado"> "O importante não é saber, e sim ter o contato de quem sabe" </p>
+        <p class="destacado"> "Se eu ganhasse 1 real pra cada pessoa que me ama, eu teria 1 real...né mãe?" </p>
+        <p class="destacado"> "As pessoas boas dormem melhor À noite do que as más. Claro, durante o dia as más se
+            divertem bem mais"</p>
+        <p class="destacado"> "É mais fácil um homem largar o crack que a punheta" </p>
+        <p class="destacado"> "A internet é o retorno do Egito Antigo: deliniador, obsessão por gatos, adoração a
+            políticos como deuses e comunicação por desenhos" </p>
+        <p class="destacado"> "Só há um tipo de amor que dura, o não correspondido" </p>
+        <p class="destacado"> "A solidão é perigosa, é viciante. Uma vez que você percebe a paz que há nela, você não
+            quer mais lidar com pessoas" </p>
+        <p class="destacado"> "Trabalhe em silêncio, e fracasse sem ninguém saber" </p>
+        <p class="destacado"> "Nós humanos temos medo de alienígenas porque tememos que eles nos tratem da mesma forma
+            que tratamos outros seres vivos" </p>
+        <p class="destacado"> "Depois que você lê p dicionário inteiro, todos os outros livros passam a ser apenas um
+            'remix'"</p>
+        <p class="destacado"> "Depois da punheta, too homem se torna um filósofo" </p>
+        <p class="destacado"> "O mundo só é legal porque é uma bola, se fosse duas seria um saco" </p>
+        <p class="destacado"> "Algumas pessoas nunca cometem o mesmo erro duas vezes, descobrem sempre novos erros pra
+            cometer" </p>
+        <p class="destacado"> "Não fumo, não bebo e não falo besteira...mas às vezes minto" </p>
+        <p class="destacado"> "O saco do chefe é o corrimão para o sucesso" </p>
+        <br>
+    </div>
+    <div class="rodapé">
+        <h2> Os Caminhos de Arisfódeles </h2>
+        <p><small> ©Todos os direitos reservados a mim mesmo </small></p>
+    </div>
+</body>
+</html>
